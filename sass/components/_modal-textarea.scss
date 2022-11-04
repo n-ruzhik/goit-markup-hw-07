@@ -1,0 +1,23 @@
+.form__textarea {
+    resize: none;
+    outline: none;
+
+    height: 120px;
+    padding: 11px 12px;
+
+    font-size: 12px;
+
+    border: 1px solid var(--input-color);
+    border-radius: 4px;
+}
+
+.form__textarea::placeholder {
+    color: var(--textarea-color);
+}
+
+.form__textarea:focus {
+    border-color: var(--accent-color);
+}
+
+
+

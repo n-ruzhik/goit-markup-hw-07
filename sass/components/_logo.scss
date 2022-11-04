@@ -1,0 +1,23 @@
+.logo {
+    display: flex;
+    margin-right: 93px;
+
+    color: #000;
+
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo--inverse {
+    color: var(--hero-text-color);
+    margin-bottom: 20px;
+}
+
+.logo__accent {
+    color: var(--accent-color);
+}
