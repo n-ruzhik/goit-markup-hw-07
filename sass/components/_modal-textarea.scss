@@ -9,15 +9,16 @@
 
     border: 1px solid var(--input-color);
     border-radius: 4px;
+
+    &:focus {
+        border-color: var(--accent-color);
+    }
 }
 
 .form__textarea::placeholder {
     color: var(--textarea-color);
 }
 
-.form__textarea:focus {
-    border-color: var(--accent-color);
-}
 
 
 

@@ -11,11 +11,11 @@
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
-}
 
-.logo--inverse {
-    color: var(--hero-text-color);
-    margin-bottom: 20px;
+    &--inverse {
+        color: var(--hero-text-color);
+        margin-bottom: 20px;
+    }
 }
 
 .logo__accent {
