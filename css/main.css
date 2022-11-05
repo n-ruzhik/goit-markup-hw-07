@@ -37,7 +37,7 @@
   padding-right: 15px;
 }
 
-.list {
+.list, .site-nav, .contacts, .soc-media, .contact-nav {
   list-style: none;
   padding: 0;
   margin: 0;

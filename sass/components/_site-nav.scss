@@ -24,6 +24,7 @@
 }
 
 .site-nav {
+    @extend .list;
     display: flex;
 
     color: var(--title-text-color);

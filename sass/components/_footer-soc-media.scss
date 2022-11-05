@@ -1,4 +1,6 @@
 .soc-media {
+    @extend .list;
+    
     display: flex;
     width: 206px;
     justify-content: center;
